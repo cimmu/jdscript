@@ -4,7 +4,7 @@ on:
       -master
   schedule:
     - cron: 0 */12 * * *
-    # 每隔12小时
+    # 每隔12小时更新同步
 jobs:
   update_external_airflow_fork:
     runs-on: ubuntu-latest
